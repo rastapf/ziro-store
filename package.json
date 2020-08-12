@@ -4,6 +4,8 @@
   "description": "Protótipo de e-commerce com front em React, back em Node e arquitetura serverless (funções lambda)",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack -- mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
