@@ -26,12 +26,18 @@ module.exports = {
                         options: {
                             modules: true,
                             importLoaders: 1,
-                            localIdentName: "[name]_[local]_[hash:base64]",
-                            sourceMap: true,
-                            minimize: true
+                            //localIdentName: "[name]_[local]_[hash:base64]",
+                            //sourceMap: true,
+                            //minimize: true
                         }
                     }
                 ]
+            },
+            {
+                test: /\.jpg/,
+                use: {
+                    loader: "file-loader"
+                }
             }
         ]
     },
