@@ -1,8 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 
-function Index() {
-    return <div>Configuração inicial do React ok, aguardando desenvolvimento posterior.</div>;
-};
-
-ReactDOM.render(<Index />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
